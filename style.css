@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "New Amsterdam", sans-serif;
+  color: #fafafa;
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 60px;
+}
+h2 {
+  margin: 10px 0 10px 0;
+  font-size: 50px;
+}
+
+button {
+  color: #000000;
+  padding: 10px 15px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5 ease;
+}
+
+button:hover {
+  background-color: #d6d1d1;
+}
+
+form {
+  margin-top: 60px;
+}
+label {
+  display: block;
+  margin: 15px 0 10px 0;
+  font-size: 25px;
+}
+
+input,
+textarea {
+  color: #000000;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+textarea {
+  height: 150px;
+}
+
+ul {
+  list-style: none;
+}
+
+.editForm {
+  display: none;
+  margin-top: 10px;
+}
+
+.postItem {
+  font-size: 25px;
+  background-color: #4e4e4e;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
